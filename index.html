@@ -1,0 +1,71 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+        <div class="header">
+            <h3>HOME</h3>
+        </div>
+        <div class="header">
+            <h3>GUEST</h3>
+        </div>
+    </div>
+
+    <div id="new-game">
+        <button onclick="newGame()" class="new-game-btn">New Game</button>
+    </div>
+
+
+    <div id="score-board">
+
+        <div class="home">
+            <p id="home-score" class="scoreline"></p>
+        </div>
+
+        <div class="guest">
+            <p id="guest-score" class="scoreline"></p>
+        </div>
+
+    </div>
+
+    <div id="but">
+
+        <div id="button">
+            <div class="plus1">
+                <button onclick="add1()" class="btn">+1</button>
+            </div>
+            <div class="plus2">
+                <button onclick="add2()" class="btn">+2</button>
+            </div>
+            <div class="plus3">
+                <button onclick="add3()" class="btn">+3</button>
+            </div>
+        </div>
+    
+        <div id="button">
+            <div class="plus1">
+                <button onclick="guestAdd1()" class="btn">+1</button>
+            </div>
+            <div class="plus2">
+                <button onclick="guestAdd2()" class="btn">+2</button>
+            </div>
+            <div class="plus3">
+                <button onclick="guestAdd3()" class="btn">+3</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="end-game">
+        <button onclick="endGame()" class="end-game-btn">End Game</button>
+    </div>
+
+    <div id="leader">
+        <p id="game-leader" class="lead"></p>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

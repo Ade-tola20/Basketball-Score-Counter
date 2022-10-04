@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+
+/* CONTAINER */
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -70px;
+}
+
+.header {
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 15px;
+}
+
+/* NEW GAME BUTTON */
+
+#new-game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.new-game-btn {
+    background: transparent;
+    border-radius: 15px;
+    font-family: 'Cursed Timer ULiL';
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    border: solid #9AABD8 2px;
+    text-decoration: none;
+}
+  
+.new-game-btn:hover {
+    background: #9AABD8;
+    background-image: -webkit-linear-gradient(top, #9AABD8, #9AABD8);
+    background-image: -moz-linear-gradient(top, #9AABD8, #9AABD8);
+    background-image: -ms-linear-gradient(top, #9AABD8, #9AABD8);
+    background-image: -o-linear-gradient(top, #9AABD8, #9AABD8);
+    background-image: linear-gradient(to bottom, #9AABD8, #9AABD8);
+    text-decoration: none;
+}
+
+
+/* SCORE BOARD */
+#score-board {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -20px;
+}
+
+.scoreline {
+    color: #F94F6D;
+    text-align: center;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 126.67px;
+}
+
+/* BUTTONS */
+
+#but {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    border: solid #9AABD8 2px;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+}
+  
+.btn:hover {
+    text-decoration: none;
+}
+
+/* TEAM IN LEAD */
+#leader {
+    display: flex;
+    justify-content: center;
+}
+
+.lead {
+    color: white;
+    font-family: 'Cursed Timer ULiL';
+}
+
+/* END GAME BUTTON */
+#end-game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.end-game-btn {
+    background: transparent;
+    border-radius: 15px;
+    font-family: 'Cursed Timer ULiL';
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    border: solid #9AABD8 2px;
+    text-decoration: none;
+}
+  
+.end-game-btn:hover {
+    background: #9AABD8;
+    background-image: -webkit-linear-gradient(top, #9AABD8, #9AABD8);
+    background-image: -moz-linear-gradient(top, #9AABD8, #9AABD8);
+    background-image: -ms-linear-gradient(top, #9AABD8, #9AABD8);
+    background-image: -o-linear-gradient(top, #9AABD8, #9AABD8);
+    background-image: linear-gradient(to bottom, #9AABD8, #9AABD8);
+    text-decoration: none;
+}
